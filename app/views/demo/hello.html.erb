@@ -1,0 +1,8 @@
+<h1>Demo#hello</h1>
+<h2>Hello, <%= @name %> !!</h2>
+<%= link_to("hello", {:controller=>"demo", :action=>"hello", :page=>"2"}) %>
+<%= link_to("index", {:controller=>"demo", :action=>"index"}) %>
+
+page = <%= @page.to_i + 1 %>
+<hr/>
+<%= params.inspect %>
