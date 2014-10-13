@@ -5,3 +5,5 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+subjects = Subject.create([{:name=>"first section", :visible=>true, :position=>1}, {:name=>"second section", :visible=>true, :position=>2}, {:name=>"third section", :visible=>true, :position=>3}])

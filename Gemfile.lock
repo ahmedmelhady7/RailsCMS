@@ -64,6 +64,9 @@ GEM
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
+    seed-fu (2.3.3)
+      activerecord (>= 3.1, < 4.2)
+      activesupport (>= 3.1, < 4.2)
     sprockets (2.11.0)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -89,3 +92,4 @@ DEPENDENCIES
   mysql2
   rails (= 4.0.2)
   sdoc
+  seed-fu (~> 2.3.3)
